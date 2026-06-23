@@ -1,0 +1,87 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#070510;
+color:white;
+}
+
+nav{
+height:80px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:0 8%;
+background:#100820;
+}
+
+.logo{
+font-size:30px;
+color:#ffd700;
+font-weight:bold;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:radial-gradient(circle,#6a00ff55,transparent);
+}
+
+.hero h1{
+font-size:55px;
+color:#ffd700;
+}
+
+.hero p{
+margin:25px;
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+border-radius:40px;
+background:linear-gradient(90deg,#6a00ff,#ffd700);
+color:black;
+text-decoration:none;
+font-weight:bold;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:50px 8%;
+}
+
+.card{
+background:#151126;
+padding:30px;
+border-radius:25px;
+border:1px solid #6a00ff55;
+}
+
+.card h2{
+color:#ffd700;
+margin-bottom:15px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#aaa;
+}
